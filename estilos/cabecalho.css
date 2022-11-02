@@ -1,0 +1,72 @@
+.cabecalho{
+    width: 1024px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0,0, .8)), url(../imagens/ponte-hercilio.jpg);
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    height: 50vh;
+}
+
+.cabecalho-magia{
+    text-align: center;    
+    background-color: black;
+    color: rgb(175, 170, 170);
+    padding: 1em;
+    font-size: 20px;
+    letter-spacing: 0.5em;
+}
+.cabecalho-titulo{
+    text-align: center;
+    margin-top: 1em;
+}
+
+#paragrafo-principal {
+    margin: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: #3DDBBB;
+}
+
+#paragrafo{
+    text-align: center;
+    margin: 50px;
+}
+
+#paragrafo-formulario{
+    color: #DB5727;
+    text-align: center;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) {
+    .cabecalho {
+        width: 920px;        
+    }
+
+}
+
+
+@media screen and (max-width: 390px) {
+    .cabecalho {
+        width: 390px;
+    }
+    #paragrafo-formulario{
+        color: var(--cor02);
+        margin-top: -14px;
+    }
+}

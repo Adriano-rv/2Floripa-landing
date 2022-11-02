@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/cropped-icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/cabecalho.css">
+    <link rel="stylesheet" href="estilos/vantagens.css">
+    <link rel="stylesheet" href="estilos/formulario.css">
+    <link rel="stylesheet" href="estilos/rodape.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Visite Florianópolis</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho-magia">
+            <p>Ilha da Magia</p>
+        </div>
+
+        <div class="cabecalho-principal">
+            <h1 class="cabecalho-titulo">Visite Florianópolis</h1>
+
+            <p id="paragrafo-principal">Conheça a capital catarinense e todas as suas belezas.</p> 
+
+            <p id="paragrafo">Floripa é um dos melhores destinos turistícos do,  e nós podemos ajudar você a ter uma experiência inesquecível.</p>
+        </div>
+        <h2 id="paragrafo-formulario">
+            Preencha o formulário e entre em contato com a gente
+        </h2>
+    </header>
+
+    <main class="conteudo-principal">
+        <div class="conteudo-principal_divis" id="turbo">
+            <div class="vantagens1">
+                <div class="vantagem" id="natureza">
+                    <p class="vantagem-titulo"><i class="bi bi-binoculars-fill"></i>Natureza ecantadora.</p>
+                    <p>Florianópolis tem belezas naturais sem fim, e você vai poder aproveita-las das mais diversas maneiras.</p>
+                </div>
+                <div class="vantagem" id="estrutura">
+                    <p class="vantagem-titulo"><i class="bi bi-building"></i>Infraeestrutura</p>
+                    <p>Centenas de opções de hotéis, pousadas, restaurantes, contando com uma fácil locomoção por toda cidade.</p>
+                </div>
+            </div>
+            <div class="vantagens2">
+                    <div class="vantagem" id="balada">
+                        <p class="vantagem-titulo"><i class="bi bi-music-note"></i>Baladas e shows</p>
+                        <p>Uma vida noturna recheada de opções para todos os gostos.</p>
+                    </div>
+                    <div class="vantagem" id="pacote">
+                        <p class="vantagem-titulo"><i class="bi bi-bag-dash"></i>Pacotes</p>
+                        <p>Temos pacotes para todos os gostos e bolsos.</p>
+                    </div>
+            </div>
+        </div>
+
+        <div id="formulario">
+            <fieldset>
+                <p id="fieldset-paragrafo">Preencha</p>
+                        <div id="form-principal">
+                            <form action="contato">
+                                
+                            <label for="name">Nome</label>
+                            <input type="text" name="name"
+                            placeholder="Digite seu nome">
+
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" placeholder="Digite seu e-mail">
+                            <label for="telefone">Telefone</label>
+                            
+                            <input type="tel" name="telefone" placeholder="Digite seu telefone">
+                                     
+                                              
+                        </div>
+                        
+                        <div id="form-secundario">
+                            <p id="fieldset-paragrafo2">Quais seus interesses</p>
+
+                             <div class="input-interesses">
+                                 <input type="radio" id="praia" value="praia">
+                                 <label for="praia">Praias</label>
+                             </div> 
+                             
+                             <div class="input-interesses">
+                                 <input type="radio" id="Baladas" value="Baladas">
+                                 <label for="Baladas">Baladas</label>
+                             </div>
+
+                             <div class="input-interesses">
+                                 <input type="radio" id="Natureza" value="Natureza">
+                                 <label for="Natureza">Natureza</label>
+                             </div>
+
+                             <div class="input-interesses">
+                                 <input type="radio" id="Cultura" value="Cultura">
+                                 <label for="Cultura">Cultura</label>
+                             </div>
+                        <div>     
+                        
+                        <p>Deixe seu comentário</p>
+                            <input type="text" id="comentario" name="comentario" size="40">
+                         <input type="button" id="botao" value="Enviar">
+
+                        <p>Prometemos não utilizar suas informações de contato para enviar qualquer tipo de spam</p>
+                    </form>
+                </section>
+            </fieldset>
+        </div>
+    </main>
+    
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <h3 class="rodape__titulo"> El Mariachi!</h3>
+            <img src="imagens/14e4959bd61f67248ab429c90f84c5ec-esboco-de-cor-da-franja-do-sombrero.png" alt="sombrero" class="sombreiro">
+        </div>
+    </footer>
+</body>
+</html>

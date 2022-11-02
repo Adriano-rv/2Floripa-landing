@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+/*font-family: 'Merriweather', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
+
+/*font-family: 'Work Sans', sans-serif;*/
+
+:root{
+    --cor01: #27dbb7;
+    --cor02: #8B53DB;
+    --cor03: #3DDBBB;
+    --cor04: #DB5727;
+    --cor05: #DBD632;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    
+}
+
+
+
+
+@media screen and (max-width: 920px) {
+    body {
+        width: 920px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    body {
+        width: 390px;
+    }
+}
